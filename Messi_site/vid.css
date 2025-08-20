@@ -1,0 +1,16 @@
+.flex3 {
+    position: relative;
+    padding-bottom: 56.25%; /* - for 16:9 video*/
+    /*padding-bottom: 75%;*/  /* - for 4:3 video*/
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.flex3 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; 
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+p{
+	padding-bottom:1em;
+}
+/* RWD: */
+img{
+	width:100%;
+	height:auto;	
+}
+
+/* FLEX CLASSES: */
+[class*="flex"] {
+    padding:0 1%;
+}
+.flex1{
+	flex: 1;
+}
+.flex2{
+	flex: 2;
+}
+.flex3{
+	flex: 3;
+}
+.flex4{
+	flex: 4;
+}
+.flex5{
+	flex: 5;
+}
+.flex6{
+	flex: 6;
+}

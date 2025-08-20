@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(standard_flex.css);
+body{
+	background-color: #010005;
+}
+#wrapper{
+	max-width:1280px;
+	margin:0 auto;
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	color:#FFF;
+    overflow:auto;
+}
+h1{
+	text-align:center;
+	font-size:4em;
+	margin:0.5em 0 1em;
+}
+nav{
+	font-size:1.5em;
+	margin-bottom:2em;
+	
+}
+nav ul{
+	/*display:???			
+	justify-content: ???*/
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+a{
+	color:#FFF;
+	text-decoration: none;
+}
+
+section, article{
+	/*display:???			
+	justify-content: ???*/
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:2em;
+	flex-direction: row;
+}
+
+div img {
+  width: 100%;       /* fylder hele bredden af boksen */
+  height: auto;      /* husk auto */
+  
+}
+
+
+  h1,h2,h3,h4 { font-family:"Amatic sc", cursive;
+}
+img {
+	width: 100%;
+	height: auto; /* <--- husk auto ---- */
+	object-fit: cover;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding: 10px;
+}
+
+article .flex1{
+	margin:1em 1%;
+	padding:0.5em 1%;
+	border:solid 1px #FFF;			/* <--- FOR AT VISE EQUAL HEIGHT COLUMNS ---- */
+	border-radius:5px;
+}
+p{
+ line-height:1.4;                    /*<--- linjeafstand ---- */
+}
+
+h4 {
+	margin-bottom: 20px;
+}
+
+div ul {
+	margin-bottom: 20px;
+}
+
+
+
+body nav ul {
+
+	border: 2px solid #ffffff ;      /* boksen rundt om alt */
+  padding: 15px;                /* luft inde i boksen */
+  background-color: #010005;     /* evt. baggrundsfarve */
+  border-radius:5px;          /* runde hjørner (valgfrit) */
+  width: 100%;                  /* fyld hele bredden */
+  box-sizing: 100px;      
+}
+footer {
+	margin:4em 1%;
+	padding:6em;
+	border:solid 1px #FFF;
+	text-align:center;
+	border-radius:5px;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+/* ------- MEDIA QUERIES: ----------*/
+
