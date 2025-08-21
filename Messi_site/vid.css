@@ -1,4 +1,12 @@
-.flex3 {
+
+@import url(standard_flex.css);
+
+#wrapper {
+   max-width:1280px;
+	margin: auto;
+}
+
+.video-container {
     position: relative;
     padding-bottom: 56.25%; /* - for 16:9 video*/
     /*padding-bottom: 75%;*/  /* - for 4:3 video*/
@@ -6,11 +14,63 @@
     height: 0;
     overflow: hidden;
 }
-.flex3 iframe {
+
+.video-container iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    border: none; 
+    height: 70%;
+    border: none;
+    
+   
+}
+
+
+.video-container2 {
+    position: relative;
+    padding-bottom: 56.25%; /* - for 16:9 video*/
+    /*padding-bottom: 75%;*/  /* - for 4:3 video*/
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border: none;
+    
+    }
+
+
+
+.video {
+
+    gap: 1em;
+}
+h1 {
+
+    border: 2px solid #ffffff;
+    padding: 15px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0; 
+    
+}
+
+
+h1 {
+    
+	font-family:"Amatic sc", cursive;
+	color:#ffffff;
+    
+}
+
+body {
+    background-color: rgb(0, 0, 0);
 }
