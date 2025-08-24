@@ -15,8 +15,8 @@ img{
 }
 
 /* FLEX CLASSES: */
-[class*="flex"] {
-    padding:0 1%;
+.flex {
+	display: flex;
 }
 .flex1{
 	flex: 1;
